@@ -3,9 +3,6 @@
     font-size: 18px;
     line-height: 1.22;
     text-decoration-line: underline;
+    text-underline-offset: 3px;
     color: white
-}
-
-.place__link:hover {
-    opacity: 0.8;
 }

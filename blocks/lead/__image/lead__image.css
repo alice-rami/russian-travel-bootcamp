@@ -1,17 +1,5 @@
 .lead__image {
-    max-width: 100%;
-    object-fit: scale-down;
+    width: 100%;
+    object-fit: cover;
     object-position: center;
-}
-
-@media screen and (max-width: 768px) {
-    .lead__image {
-        box-sizing: content-box;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__image {
-        box-sizing: content-box;
-    }
 }

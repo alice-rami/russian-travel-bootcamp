@@ -3,24 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    padding: 48px 48px 0 48px;
+    max-width: calc(100% - (48px*2));
+    padding-top: 48px;
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        padding: 56px 148px 0 148px;
+        max-width: calc(100% - (148px*2));
+        padding-top: 56px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        padding: 48px 0 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        padding: 48px 0 0;
+        max-width: 100%;
     }
 }
