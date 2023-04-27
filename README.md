@@ -2,7 +2,7 @@
 
 Сайт, созданный в рамках буткемпа «Фронтенд-разработчик», посвященный путешествиям по России на поезде.
 
-[https://alice-rami.github.io/russian-travel/index.html]
+[https://alice-rami.github.io/russian-travel-bootcamp/]
 
 
 ## Что нового
