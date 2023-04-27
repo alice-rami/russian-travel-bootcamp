@@ -3,3 +3,9 @@
     object-position: center;
     max-width: 100%;
 }
+
+@media screen and (max-width: 520px) {
+    .place__image {
+        max-height: 60vh;
+    }
+}
