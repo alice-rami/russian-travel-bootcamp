@@ -5,21 +5,16 @@
 }
 
 @media screen and (max-width: 768px) {
-        .footer {
-            padding: 88px 24px 24px;
-        }
-}
-
-@media screen and (max-width: 730px) {
     .footer {
-        flex-direction: column;
-        row-gap: 48px;
+        padding: 88px 24px 24px;
+        flex-wrap: wrap;
+        gap: 48px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
         padding: 64px 16px 24px;
-        justify-content: space-between;
+        flex-direction: column;
     }
 }
