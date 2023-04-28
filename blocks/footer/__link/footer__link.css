@@ -4,12 +4,8 @@
     line-height: 1.12;
     color: #FFFFFF;
     text-decoration: none;
-}
-
-@media screen and (max-width: 730px) {
-    .footer__link {
-        font-size: 18px;
-    }
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 320px) {

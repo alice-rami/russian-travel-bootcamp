@@ -1,16 +1,22 @@
 .places {
     display: flex;
     padding: 92px 0 92px;
-    max-width: calc(100% - (48px*2));
+    max-width: 984px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 80px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .places {
-        max-width: calc(100% - (148px*2));
+        max-width: calc(100% - (48px*2));
+    }   
+}
+
+@media screen and (max-width: 840px) {
+    .places {
+        max-width: calc(100% - (24px*2));
     }   
 }
 
@@ -22,14 +28,9 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    .places {
-        max-width: 100%;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .places {
+        max-width: 100%;
         row-gap: 50px;
         padding: 64px 0 66px;
     }

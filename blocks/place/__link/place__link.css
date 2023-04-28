@@ -5,4 +5,5 @@
     text-decoration-line: underline;
     text-underline-offset: 3px;
     color: white;
+    max-width: 100%;
 }
