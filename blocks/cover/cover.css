@@ -7,10 +7,10 @@
     align-items: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     text-decoration: none;
     color: white;
     position: relative;
-    overflow: hidden;
 }
 
 .cover::before {
