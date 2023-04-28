@@ -1,40 +1,27 @@
 .place {
     display: grid;
     width: 100%;
-    grid-template-columns: fit-content(440px) fit-content(456px);
+    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
     grid-template-rows: auto;
     row-gap: 48px;
-    column-gap: 32px;
+    column-gap: 40px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(460px, 1fr) minmax(484px, 1.5fr);
-        column-gap: 40px;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .place {
-        grid-template-columns: fit-content(340px) fit-content(420px);
-        column-gap: 28px;
+        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+        column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: fit-content(340px) fit-content(352px);
+        grid-template-columns: minmax(240px, 340px) minmax(252px, 352px);
+        column-gap: 28px;
     }
 }
 
-@media screen and (max-width: 720px) {
-    .place {
-        width: 90%;
-        grid-template-columns: 1fr 1.5fr;
-    }
-}
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
     .place {
         grid-template-columns: 100%;
         justify-content: center;
